@@ -3,7 +3,7 @@ import { useTheme } from "../Hooks/useTheme";
 export default function Login() {
   const { theme } = useTheme();
   return (
-    <div className="flex flex-col items-center justify-center gap-2 px-7">
+    <div className="flex flex-col items-center justify-center gap-2 px-7 self-center">
       <img src="/Logo.svg" alt="GitShooter Logo" className="h-20 mb-4"/>
       <h1 className="text-2xl font-bold text-text">
         Git<span className="text-green">Shooter</span>

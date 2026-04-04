@@ -13,7 +13,7 @@ export default function AppLayout() {
       </div>
 
       {/* Body */}
-      <div className="flex-1 overflow-y-auto flex items-center justify-center">
+      <div className="flex-1 overflow-y-auto flex items-start justify-center py-8">
         <Outlet />
       </div>
     </div>
