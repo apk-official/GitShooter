@@ -18,6 +18,7 @@ export default function Home() {
       <PlayerStat />
       </div>
       <AttackAndLeadershipBtn />
+      <h4 className="text-sm text-text2 font-mono">TRENDING TARGETS TODAY</h4>
       <PlayerInfo/>
       </div>
   )
